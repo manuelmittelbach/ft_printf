@@ -3,7 +3,7 @@ NAME = ft_printf.a
 CC = cc
 CFLAGS = -Wall -Werror -Wextra -MMD -MP
 
-SRC = printf.c digit_unsigned_hexa.c char_string_point.c
+SRC = ft_printf.c digit_unsigned_hexa.c char_string_point.c
 OBJ = ${SRC:.c=.o}
 DEP = ${SRC:.c=.d}
 
