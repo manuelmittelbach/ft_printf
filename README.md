@@ -4,7 +4,7 @@
 
 ## Description
 
-`ft_printf` is a reimplementation of the standard C printf function.
+ft_printf is a reimplementation of the standard C printf function.
 The goal of this project is to understand variadic functions, format specifiers, and low-level output in C.
 
 This custom printf supports the following format specifiers:
