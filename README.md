@@ -26,13 +26,11 @@ All output is written to standard output, and the return value matches the numbe
 make
 ```
 
-### Run
+### Compile and Run
 
 After building ft_printf.a you can link it with your own programs.
 
 A main is provided to test the program. 
-
-Compile and run:
 
 ```bash
 cc main.c ft_printf.a

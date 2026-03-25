@@ -54,7 +54,7 @@ int	ft_hexa(unsigned int ptr)
 	if (ptr >= 0x10)
 		count += ft_hexa(ptr / 0x10);
 	ptr = ptr % 0x10;
-	if (ptr >= 0x0 && ptr <= 0x9) 
+	if (ptr >= 0x0 && ptr <= 0x9)
 	{
 		ptr = ptr + 48;
 		write(1, &ptr, 1);
@@ -77,7 +77,7 @@ int	ft_hexa_caps(unsigned int ptr)
 	if (ptr >= 0x10)
 		count += ft_hexa_caps(ptr / 0x10);
 	ptr = ptr % 0x10;
-	if (ptr >= 0x0 && ptr <= 0x9) 
+	if (ptr >= 0x0 && ptr <= 0x9)
 	{
 		ptr = ptr + 48;
 		write(1, &ptr, 1);
