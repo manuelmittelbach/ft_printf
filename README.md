@@ -18,6 +18,14 @@ This custom printf supports the following format specifiers:
 
 All output is written to standard output, and the return value matches the number of characters printed, just like the standard printf.
 
+<br>
+
+## Platform support
+
+This project is developed for Unix-like systems, primarily Linux. It uses Unix-oriented tooling and a Makefile-based build system, so it is generally not intended to run natively on Windows without adaptation. On Windows, the recommended way to build and run it is through WSL.
+
+<br>
+
 ## Instructions
 
 ### Build
